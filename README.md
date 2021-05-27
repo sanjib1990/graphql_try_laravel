@@ -27,43 +27,43 @@ This project is to understand how graphql works and do a basic implementation wi
 
 - To get list of quests
 
-    {
-      quests {
-        title
-      }
-    }
+        {
+          quests {
+            title
+          }
+        }
 
 - To get quest by id
 
-    {
-      quest(id: 11) {title}
-    }
+        {
+          quest(id: 11) {title}
+        }
 
 - To create new Quest
 
-    mutation{
-      createQuest(
-        title: "some title again",
-        description:"asdadad adssadd asa dads sadasdad",
-        reward:300,
-        category_id:2
-      ) {id, title, category{title}}
-    }
+        mutation{
+          createQuest(
+            title: "some title again",
+            description:"asdadad adssadd asa dads sadasdad",
+            reward:300,
+            category_id:2
+          ) {id, title, category{title}}
+        }
 
 - To update a quest by id
 
-    mutation{
-      updateQuest(
-        id:11,
-        title: "SOME TITLE UPDATED",
-        description:"asdadad adsa dads sadasdad",
-        reward:400,
-        category_id:1
-      ){id, title, category{id, title}}
-    }
+        mutation{
+          updateQuest(
+            id:11,
+            title: "SOME TITLE UPDATED",
+            description:"asdadad adsa dads sadasdad",
+            reward:400,
+            category_id:1
+          ){id, title, category{id, title}}
+        }
 
 - To delete quest by id
 
-    mutation{
-      deleteQuest(id:12)
-    }
+        mutation{
+          deleteQuest(id:12)
+        }
