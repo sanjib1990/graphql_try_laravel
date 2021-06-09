@@ -437,6 +437,44 @@
         </script>
     </div>
 
+    <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HK9cf1IHrTntcT/view" data-text="Professional Fee" data-color="#528FF0" data-size="large">
+      <script>
+        (function(){
+          var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+          if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+          s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+          rzp && rzp.init && rzp.init()}})();
+      </script>
+    </div>
+
+    <div class="items-center justify">
+    <h2> Quick Pay Button </h2>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HKA1xfN6C2qukg" async> </script> </form>
+    </div>
+
+    <div>
+        <h2>Donate Button</h2>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HKAAq1Bj2mt9uZ" async> </script> </form>
+    </div>
+
+    <div>
+        <h2>Buy Now</h2>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HKAIBKUcPzf85Q" async> </script> </form>
+    </div>
+
+    <div>
+        <h2>
+            Custom Button
+        </h2>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HKAMxiGudmWFvY" async> </script> </form>
+    </div>
+
+    <div>
+        <h2>
+            Subscription
+        </h2>
+        <form><script src="https://cdn.razorpay.com/static/widget/subscription-button.js" data-subscription_button_id="pl_HKAYtmBHbEwpvK" data-button_theme="rzp-outline-standard" async> </script> </form>
+    </div>
 </div>
 </body>
 </html>
